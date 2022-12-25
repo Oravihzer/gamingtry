@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chivo+Mono:wght@100&family=Lobster+Two:ital@0;1&family=Prosto+One&display=swap");
+
+h1 {
+  font-family: "Lobster Two", cursive;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  opacity: 1;
+}
+h3 {
+  font-family: "Lobster Two";
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  opacity: 1;
+}
+body {
+  background-color: rgb(53, 53, 53);
+}
+
+div {
+  text-align: center;
+  opacity: 1;
+}
+h1:hover {
+  background-color: #737373;
+  transition: background-color 0.5s;
+  border-radius: 10px;
+  height: 70px;
+  opacity: 1;
+}
+main {
+  font-family: "Lobster Two";
+  opacity: 1;
+}
+
+a {
+  text-decoration: none;
+  opacity: 1;
+}
+img {
+  border: 2px solid rgb(53, 53, 53);
+  border-radius: 10px;
+  opacity: 1;
+}
+h3 {
+  opacity: 1;
+}
+
+.brighten img {
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.brighten img:hover {
+  -webkit-filter: brightness(100%);
+}
+
+p {
+  text-align: center;
+  color: white;
+  border: 4px;
+  border-radius: 10px;
+  font-family: "Chivo Mono";
+  opacity: 1;
+}
+
+html {
+  background: url(https://images2.alphacoders.com/992/992034.jpg) no-repeat
+    center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.8;
+}
